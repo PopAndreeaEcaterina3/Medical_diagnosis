@@ -1,0 +1,14 @@
+venv/
+.venv/
+
+
+.idea/
+__MACOSX/
+PyCharm*/
+
+
+*.pt
+*.onnx
+
+IMAGINI L3/
+sarcopenie_yolo/yolo_dataset/
