@@ -22,6 +22,15 @@ I chose the YOLOv8 architecture due to its state-of-the-art performance and spee
 ## 🚀 How to Run Locally
 
 1. Clone this repository: 
-   ```bash
-   git clone your-repository-link-here
-   cd your-folder-name
+ ```bash
+ git clone https://github.com/PopAndreeaEcaterina3/Medical_diagnosis.git
+ cd Medical_diagnosis
+2. Set up a virtual environment
+ python -m venv venv
+ # On Windows: venv\Scripts\activate
+ # On macOS/Linux:
+ source venv/bin/activate
+3. Install the required dependencies:
+  pip install -r requirements.txt
+4. Run the model
+  python predict.py --image test_images/sample_ct.jpg
